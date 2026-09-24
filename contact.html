@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Inquiries — WEARSPIRATION</title>
+  <meta name="description" content="Start a conversation with the Wearspiration atelier for press, styling loans, creative partnerships, and customer inquiries.">
+  <meta property="og:title" content="Contact &amp; Inquiries — WEARSPIRATION">
+  <meta property="og:description" content="Start a conversation with the Wearspiration atelier for press and inquiries.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Shared Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-wordmark" aria-label="WEARSPIRATION Home">WEARSPIRATION</a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="shop.html" class="nav-link">New Arrivals</a>
+        <a href="collection.html" class="nav-link">Clothing</a>
+        <a href="shop.html" class="nav-link">Footwear</a>
+        <a href="journal.html" class="nav-link">Journal</a>
+        <a href="about.html" class="nav-link">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="shop.html" class="btn btn-outline header-cta">Shop the collection</a>
+        <button type="button" class="header-cart-btn" aria-label="View shopping bag" aria-expanded="false" aria-controls="cart-drawer">
+          <svg class="cart-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="header-cart-label">Bag</span>
+          <span class="cart-count-badge" data-count="0">0</span>
+        </button>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav-drawer" aria-label="Toggle navigation menu">
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Mobile navigation">
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="shop.html" class="mobile-nav-link">New Arrivals</a>
+      <a href="collection.html" class="mobile-nav-link">Clothing &amp; Collection</a>
+      <a href="shop.html" class="mobile-nav-link">Footwear</a>
+      <a href="about.html" class="mobile-nav-link">About the House</a>
+      <a href="journal.html" class="mobile-nav-link">Journal</a>
+      <a href="contact.html" class="mobile-nav-link active">Contact</a>
+    </nav>
+    <div class="mobile-nav-footer">
+      <a href="shop.html" class="btn btn-primary" style="width: 100%;">Shop the collection</a>
+      <div class="meta-unboxed">
+        <span>Identity</span>
+        <span aria-hidden="true">/</span>
+        <span>Confidence</span>
+        <span aria-hidden="true">/</span>
+        <span>Movement</span>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs" aria-label="Breadcrumb trail">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Contact</span>
+        </nav>
+        <span class="eyebrow">COMMUNICATION &amp; ATELIER RELATIONS</span>
+        <h1>Start a conversation.</h1>
+        <p class="page-header-intro">
+          Our studio welcomes inquiries regarding upcoming releases, editorial styling loans, press features, creative collaborations, and customer inquiries.
+        </p>
+      </div>
+    </header>
+
+    <!-- Contact Form & Editorial Side -->
+    <div class="container">
+      <div class="contact-layout">
+        <!-- Form Block Left -->
+        <div class="contact-form-block reveal-on-scroll">
+          <span class="eyebrow">DIRECT INQUIRY</span>
+          <h2 style="font-size: 1.85rem; margin-bottom: 0.5rem;">Send an inquiry</h2>
+          <p style="color: var(--color-stone); font-size: 0.9375rem;">
+            Please provide your details below. Each correspondence is reviewed directly by our studio team.
+          </p>
+
+          <form id="contact-form" class="contact-form" novalidate aria-label="Contact inquiry form">
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Full Name</label>
+              <input 
+                type="text" 
+                id="contact-name" 
+                name="name" 
+                class="form-input" 
+                placeholder="e.g. Morgan Vance" 
+                required 
+                autocomplete="name"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Email Address</label>
+              <input 
+                type="email" 
+                id="contact-email" 
+                name="email" 
+                class="form-input" 
+                placeholder="name@domain.com" 
+                required 
+                autocomplete="email"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject" class="form-label">Nature of Inquiry</label>
+              <select id="contact-subject" name="subject" class="form-input" style="cursor: pointer;">
+                <option value="press">Press &amp; Publications</option>
+                <option value="styling">Editorial &amp; Styling Loan</option>
+                <option value="partnerships">Creative Partnerships</option>
+                <option value="releases">Catalogue &amp; Release Inquiries</option>
+                <option value="general">General Correspondence</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Message</label>
+              <textarea 
+                id="contact-message" 
+                name="message" 
+                class="form-textarea" 
+                placeholder="Please outline the nature of your inquiry, timeframe, and relevant project details..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+              Send Message
+            </button>
+
+            <!-- Front-end demo success message container -->
+            <div id="contact-feedback" class="form-feedback" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+
+        <!-- Editorial Frame Right -->
+        <div class="contact-side-editorial reveal-on-scroll">
+          <div class="contact-editorial-frame">
+            <img 
+              src="https://res.cloudinary.com/iawzfonz/image/upload/v1790174693/Fabric_background_for_newsletter_2K_20260923153914.jpg" 
+              alt="Close tactile weave of premium textile fabric"
+              loading="lazy"
+              decoding="async"
+            >
+          </div>
+          <div class="contact-note">
+            <div class="meta-unboxed" style="margin-bottom: 0.5rem;">
+              <span>Studio Inquiries</span>
+              <span aria-hidden="true">&middot;</span>
+              <span>Global Correspondence</span>
+            </div>
+            <p>
+              Correspondence is processed in the order received. For editorial press requests and sample pulls, kindly include publication deadlines and editorial direction.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <span class="footer-brand-logo">WEARSPIRATION</span>
+          <p class="footer-tagline">Contemporary luxury clothing and footwear for individuals defined by movement and self-expression.</p>
+          <div class="meta-unboxed" style="margin-top: 0.5rem;">
+            <span>Wear what inspires you.</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links">
+            <li><a href="shop.html" class="footer-link">New Arrivals</a></li>
+            <li><a href="collection.html" class="footer-link">Collection</a></li>
+            <li><a href="shop.html" class="footer-link">Footwear</a></li>
+            <li><a href="about.html" class="footer-link">About</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Editorial</div>
+          <ul class="footer-links">
+            <li><a href="journal.html" class="footer-link">Journal</a></li>
+            <li><a href="collection.html" class="footer-link">Campaign Lookbook</a></li>
+            <li><a href="contact.html" class="footer-link">Contact &amp; Press</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Client Relations</div>
+          <p class="footer-tagline" style="margin-bottom: 1rem;">Private inquiries, editorial loans, and appointments.</p>
+          <a href="contact.html" class="link-editorial">Start a Conversation</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 WEARSPIRATION. All rights reserved.</div>
+        <div class="meta-unboxed">
+          <span>Editorial Concept</span>
+          <span aria-hidden="true">&middot;</span>
+          <span>Crafted with Intention</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Smooth Scroll-To-Top Button -->
+  <button type="button" class="scroll-to-top" aria-label="Return to top of page">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="./script.js"></script>
+</body>
+</html>

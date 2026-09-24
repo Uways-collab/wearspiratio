@@ -1,0 +1,7 @@
+{
+  "name": "WEARSPIRATION — Contemporary Luxury",
+  "description": "Contemporary luxury clothing and footwear brand for identity, confidence, movement, and self-expression. Wear what inspires you.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

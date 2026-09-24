@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Collection — WEARSPIRATION</title>
+  <meta name="description" content="Explore the contemporary luxury clothing and footwear collection by Wearspiration. Architectural tailoring and progressive footwear.">
+  <meta property="og:title" content="The Collection — WEARSPIRATION">
+  <meta property="og:description" content="Explore the contemporary luxury clothing and footwear collection by Wearspiration.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Shared Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-wordmark" aria-label="WEARSPIRATION Home">WEARSPIRATION</a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="shop.html" class="nav-link active">New Arrivals</a>
+        <a href="collection.html" class="nav-link">Clothing</a>
+        <a href="shop.html" class="nav-link">Footwear</a>
+        <a href="journal.html" class="nav-link">Journal</a>
+        <a href="about.html" class="nav-link">About</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="shop.html" class="btn btn-outline header-cta">Shop the collection</a>
+        <button type="button" class="header-cart-btn" aria-label="View shopping bag" aria-expanded="false" aria-controls="cart-drawer">
+          <svg class="cart-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="header-cart-label">Bag</span>
+          <span class="cart-count-badge" data-count="0">0</span>
+        </button>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav-drawer" aria-label="Toggle navigation menu">
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Mobile navigation">
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="shop.html" class="mobile-nav-link active">New Arrivals</a>
+      <a href="collection.html" class="mobile-nav-link">Clothing &amp; Collection</a>
+      <a href="shop.html" class="mobile-nav-link">Footwear</a>
+      <a href="about.html" class="mobile-nav-link">About the House</a>
+      <a href="journal.html" class="mobile-nav-link">Journal</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </nav>
+    <div class="mobile-nav-footer">
+      <a href="shop.html" class="btn btn-primary" style="width: 100%;">Shop the collection</a>
+      <div class="meta-unboxed">
+        <span>Identity</span>
+        <span aria-hidden="true">/</span>
+        <span>Confidence</span>
+        <span aria-hidden="true">/</span>
+        <span>Movement</span>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Page Header -->
+    <header class="page-header">
+      <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs" aria-label="Breadcrumb trail">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Shop</span>
+        </nav>
+        <span class="eyebrow">CATALOGUE &amp; RELEASES</span>
+        <h1>The collection</h1>
+        <p class="page-header-intro">A thoughtful curation of garments and footwear designed with architectural proportion, textural richness, and deliberate movement.</p>
+      </div>
+    </header>
+
+    <div class="container" style="padding-top: 3.5rem;">
+      <!-- Category Navigation & Cards -->
+      <section aria-labelledby="categories-heading" style="margin-bottom: 4rem;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2rem;">
+          <h2 id="categories-heading" style="font-size: 1.75rem;">Categories</h2>
+          <div class="meta-unboxed">
+            <span>Autumn / Winter Study</span>
+          </div>
+        </div>
+
+        <div class="category-cards-grid">
+          <!-- Card 1: New Arrivals -->
+          <a href="#products-list" class="category-card reveal-on-scroll">
+            <img 
+              src="https://res.cloudinary.com/iawzfonz/image/upload/v1790174701/Fashion_model_showcasing_new_arr__2K_20260923153222.jpg" 
+              alt="Model demonstrating new arrival tailored look" 
+              class="category-card-img"
+              loading="lazy"
+              decoding="async"
+            >
+            <div class="category-card-scrim"></div>
+            <div class="category-card-content">
+              <div class="category-card-meta">Curated Debut</div>
+              <h3 class="category-card-title">New Arrivals</h3>
+            </div>
+          </a>
+
+          <!-- Card 2: Clothing -->
+          <a href="#products-list" class="category-card reveal-on-scroll">
+            <img 
+              src="https://res.cloudinary.com/iawzfonz/image/upload/v1790174687/Person_wearing_luxury_garments_2K_20260923153141.jpg" 
+              alt="Person in draped luxury coat and trousers" 
+              class="category-card-img"
+              loading="lazy"
+              decoding="async"
+            >
+            <div class="category-card-scrim"></div>
+            <div class="category-card-content">
+              <div class="category-card-meta">Atelier Tailoring</div>
+              <h3 class="category-card-title">Clothing</h3>
+            </div>
+          </a>
+
+          <!-- Card 3: Footwear -->
+          <a href="#products-list" class="category-card reveal-on-scroll">
+            <img 
+              src="https://res.cloudinary.com/iawzfonz/image/upload/v1790174701/Footwear_on_architectural_surface_2K_20260923153950.jpg" 
+              alt="Sculptural luxury footwear on stone podium" 
+              class="category-card-img"
+              loading="lazy"
+              decoding="async"
+            >
+            <div class="category-card-scrim"></div>
+            <div class="category-card-content">
+              <div class="category-card-meta">Form &amp; Motion</div>
+              <h3 class="category-card-title">Footwear</h3>
+            </div>
+          </a>
+
+          <!-- Card 4: Essentials -->
+          <a href="#products-list" class="category-card reveal-on-scroll">
+            <img 
+              src="https://res.cloudinary.com/iawzfonz/image/upload/v1790174691/Styling_wardrobe_essentials_fash__2K_20260923153244.jpg" 
+              alt="Minimalist wardrobe styling essentials" 
+              class="category-card-img"
+              loading="lazy"
+              decoding="async"
+            >
+            <div class="category-card-scrim"></div>
+            <div class="category-card-content">
+              <div class="category-card-meta">Foundation Pieces</div>
+              <h3 class="category-card-title">Essentials</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- Filter & Sort UI -->
+      <div id="products-list" class="shop-filter-bar">
+        <div class="filter-pills-group" role="tablist" aria-label="Filter products by category">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Releases</button>
+          <button class="filter-btn" data-filter="footwear" role="tab" aria-selected="false">Footwear</button>
+          <button class="filter-btn" data-filter="clothing" role="tab" aria-selected="false">Clothing</button>
+          <button class="filter-btn" data-filter="essentials" role="tab" aria-selected="false">Essentials</button>
+        </div>
+
+        <div class="sort-select-wrapper">
+          <label for="shop-sort-dropdown">Perspective:</label>
+          <select id="shop-sort-dropdown" class="sort-select" aria-label="Sort products">
+            <option value="editorial">Editorial Sequence</option>
+            <option value="latest">Latest Additions</option>
+            <option value="curated">Curator Focus</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Product Preview Grid -->
+      <section aria-label="Product previews">
+        <div class="products-grid">
+          <!-- Product 1: The Forma Sneaker -->
+          <article class="product-card reveal-on-scroll" data-category="footwear" data-product-id="forma-sneaker">
+            <div class="product-card-img-wrap">
+              <a href="product.html" aria-label="View details for The Forma Sneaker">
+                <img 
+                  src="https://res.cloudinary.com/iawzfonz/image/upload/v1790174697/Sneaker_product_macro_photography_2K_20260923153618.jpg" 
+                  alt="The Forma Sneaker macro product photography detailing technical texture"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+              <button 
+                type="button" 
+                class="product-card-quick-add"
+                data-product-id="forma-sneaker"
+                data-title="The Forma Sneaker"
+                data-price="380"
+                data-currency="$"
+                data-category="Footwear"
+                data-size="EU 42"
+                data-img="https://res.cloudinary.com/iawzfonz/image/upload/v1790174697/Sneaker_product_macro_photography_2K_20260923153618.jpg"
+                aria-label="Quick add The Forma Sneaker to bag"
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                <span class="quick-add-text">Quick Add</span>
+              </button>
+            </div>
+            <div class="product-card-body">
+              <div>
+                <div class="meta-unboxed" style="margin-bottom: 0.5rem;">
+                  <span>Footwear</span>
+                  <span aria-hidden="true">&middot;</span>
+                  <span>Architectural Sole</span>
+                </div>
+                <h3 class="product-card-title">
+                  <a href="product.html">The Forma Sneaker</a>
+                </h3>
+                <p class="product-card-editorial">Low-profile luxury sneaker constructed with dynamic geometric outsoles, tactile layering, and streamlined proportions.</p>
+              </div>
+              <div class="product-card-footer">
+                <div class="product-card-price-wrap">
+                  <span class="product-card-price">$380</span>
+                  <span class="product-card-size-hint">EU 42 &middot; In Stock</span>
+                </div>
+                <div class="product-card-actions">
+                  <button 
+                    type="button" 
+                    class="btn-quick-add"
+                    data-product-id="forma-sneaker"
+                    data-title="The Forma Sneaker"
+                    data-price="380"
+                    data-currency="$"
+                    data-category="Footwear"
+                    data-size="EU 42"
+                    data-img="https://res.cloudinary.com/iawzfonz/image/upload/v1790174697/Sneaker_product_macro_photography_2K_20260923153618.jpg"
+                    aria-label="Quick add The Forma Sneaker to bag"
+                  >
+                    <span class="btn-quick-add-icon" aria-hidden="true">+</span>
+                    <span class="btn-quick-add-text">Quick Add</span>
+                  </button>
+                  <a href="product.html" class="link-editorial">View Piece</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2: Tailored Trousers -->
+          <article class="product-card reveal-on-scroll" data-category="clothing" data-product-id="tailored-trousers">
+            <div class="product-card-img-wrap">
+              <a href="product.html" aria-label="View details for Tailored Trousers">
+                <img 
+                  src="https://res.cloudinary.com/iawzfonz/image/upload/v1790174691/Tailored_trousers_product_photog__2K_20260923153601.jpg" 
+                  alt="Tailored trousers product photography highlighting deep pleats and clean waistband"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+              <button 
+                type="button" 
+                class="product-card-quick-add"
+                data-product-id="tailored-trousers"
+                data-title="Tailored Trousers"
+                data-price="320"
+                data-currency="$"
+                data-category="Clothing"
+                data-size="Size 48 (M)"
+                data-img="https://res.cloudinary.com/iawzfonz/image/upload/v1790174691/Tailored_trousers_product_photog__2K_20260923153601.jpg"
+                aria-label="Quick add Tailored Trousers to bag"
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                <span class="quick-add-text">Quick Add</span>
+              </button>
+            </div>
+            <div class="product-card-body">
+              <div>
+                <div class="meta-unboxed" style="margin-bottom: 0.5rem;">
+                  <span>Clothing</span>
+                  <span aria-hidden="true">&middot;</span>
+                  <span>Pleated Drapery</span>
+                </div>
+                <h3 class="product-card-title">
+                  <a href="product.html">Tailored Trousers</a>
+                </h3>
+                <p class="product-card-editorial">High-rise cut engineered with a generous front pleat and relaxed leg silhouette designed to articulate natural movement.</p>
+              </div>
+              <div class="product-card-footer">
+                <div class="product-card-price-wrap">
+                  <span class="product-card-price">$320</span>
+                  <span class="product-card-size-hint">Size 48 (M) &middot; In Stock</span>
+                </div>
+                <div class="product-card-actions">
+                  <button 
+                    type="button" 
+                    class="btn-quick-add"
+                    data-product-id="tailored-trousers"
+                    data-title="Tailored Trousers"
+                    data-price="320"
+                    data-currency="$"
+                    data-category="Clothing"
+                    data-size="Size 48 (M)"
+                    data-img="https://res.cloudinary.com/iawzfonz/image/upload/v1790174691/Tailored_trousers_product_photog__2K_20260923153601.jpg"
+                    aria-label="Quick add Tailored Trousers to bag"
+                  >
+                    <span class="btn-quick-add-icon" aria-hidden="true">+</span>
+                    <span class="btn-quick-add-text">Quick Add</span>
+                  </button>
+                  <a href="product.html" class="link-editorial">View Piece</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3: Leather Detail / Jacket -->
+          <article class="product-card reveal-on-scroll" data-category="clothing" data-product-id="espresso-leather-jacket">
+            <div class="product-card-img-wrap">
+              <a href="product.html" aria-label="View details for Espresso Leather Jacket">
+                <img 
+                  src="https://res.cloudinary.com/iawzfonz/image/upload/v1790174693/Espresso_leather_jacket_close-up_2K_20260923154025.jpg" 
+                  alt="Espresso leather jacket close up showcasing fine grain and topstitch details"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+              <button 
+                type="button" 
+                class="product-card-quick-add"
+                data-product-id="espresso-leather-jacket"
+                data-title="Espresso Leather Jacket"
+                data-price="790"
+                data-currency="$"
+                data-category="Clothing"
+                data-size="Size 50 (L)"
+                data-img="https://res.cloudinary.com/iawzfonz/image/upload/v1790174693/Espresso_leather_jacket_close-up_2K_20260923154025.jpg"
+                aria-label="Quick add Espresso Leather Jacket to bag"
+              >
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                <span class="quick-add-text">Quick Add</span>
+              </button>
+            </div>
+            <div class="product-card-body">
+              <div>
+                <div class="meta-unboxed" style="margin-bottom: 0.5rem;">
+                  <span>Clothing</span>
+                  <span aria-hidden="true">&middot;</span>
+                  <span>Espresso Leather</span>
+                </div>
+                <h3 class="product-card-title">
+                  <a href="product.html">Espresso Leather Jacket</a>
+                </h3>
+                <p class="product-card-editorial">Substantial leather jacket sculpted in rich espresso tones, featuring minimal collar geometry and precision hardware.</p>
+              </div>
+              <div class="product-card-footer">
+                <div class="product-card-price-wrap">
+                  <span class="product-card-price">$790</span>
+                  <span class="product-card-size-hint">Size 50 (L) &middot; In Stock</span>
+                </div>
+                <div class="product-card-actions">
+                  <button 
+                    type="button" 
+                    class="btn-quick-add"
+                    data-product-id="espresso-leather-jacket"
+                    data-title="Espresso Leather Jacket"
+                    data-price="790"
+                    data-currency="$"
+                    data-category="Clothing"
+                    data-size="Size 50 (L)"
+                    data-img="https://res.cloudinary.com/iawzfonz/image/upload/v1790174693/Espresso_leather_jacket_close-up_2K_20260923154025.jpg"
+                    aria-label="Quick add Espresso Leather Jacket to bag"
+                  >
+                    <span class="btn-quick-add-icon" aria-hidden="true">+</span>
+                    <span class="btn-quick-add-text">Quick Add</span>
+                  </button>
+                  <a href="product.html" class="link-editorial">View Piece</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section" aria-labelledby="shop-newsletter-heading">
+      <div class="newsletter-bg">
+        <img 
+          src="https://res.cloudinary.com/iawzfonz/image/upload/v1790174693/Fabric_background_for_newsletter_2K_20260923153914.jpg" 
+          alt="Macro weave of luxury textile fabric"
+          loading="lazy"
+          decoding="async"
+        >
+      </div>
+      <div class="newsletter-overlay"></div>
+      <div class="container newsletter-content">
+        <span class="eyebrow">CURATED DISPATCH</span>
+        <h2 id="shop-newsletter-heading" style="color: var(--color-ivory); margin-bottom: 1rem;">Early access to upcoming drops.</h2>
+        <p class="lead-text" style="margin: 0 auto; color: var(--color-stone);">Be the first to receive notifications as new silhouettes, footwear sizes, and garment runs are unveiled.</p>
+        <form class="newsletter-form" aria-label="Newsletter signup">
+          <input 
+            type="email" 
+            class="newsletter-input" 
+            placeholder="Enter your email address" 
+            aria-label="Email address"
+            required
+          >
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <span class="footer-brand-logo">WEARSPIRATION</span>
+          <p class="footer-tagline">Contemporary luxury clothing and footwear for individuals defined by movement and self-expression.</p>
+          <div class="meta-unboxed" style="margin-top: 0.5rem;">
+            <span>Wear what inspires you.</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <ul class="footer-links">
+            <li><a href="shop.html" class="footer-link">New Arrivals</a></li>
+            <li><a href="collection.html" class="footer-link">Collection</a></li>
+            <li><a href="shop.html" class="footer-link">Footwear</a></li>
+            <li><a href="about.html" class="footer-link">About</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Editorial</div>
+          <ul class="footer-links">
+            <li><a href="journal.html" class="footer-link">Journal</a></li>
+            <li><a href="collection.html" class="footer-link">Campaign Lookbook</a></li>
+            <li><a href="contact.html" class="footer-link">Contact &amp; Press</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Client Relations</div>
+          <p class="footer-tagline" style="margin-bottom: 1rem;">Private inquiries, editorial loans, and appointments.</p>
+          <a href="contact.html" class="link-editorial">Start a Conversation</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 WEARSPIRATION. All rights reserved.</div>
+        <div class="meta-unboxed">
+          <span>Editorial Concept</span>
+          <span aria-hidden="true">&middot;</span>
+          <span>Crafted with Intention</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Smooth Scroll-To-Top Button -->
+  <button type="button" class="scroll-to-top" aria-label="Return to top of page">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Cart Backdrop -->
+  <div id="cart-backdrop" class="cart-backdrop" aria-hidden="true"></div>
+
+  <!-- Slide-out Shopping Bag Drawer -->
+  <aside id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping Bag" aria-hidden="true">
+    <div class="cart-drawer-header">
+      <div class="cart-drawer-title-wrap">
+        <span class="eyebrow" style="margin-bottom: 0.2rem;">SHOPPING BAG</span>
+        <h2 class="cart-drawer-title">Your Selection (<span class="cart-drawer-count">0</span>)</h2>
+      </div>
+      <button type="button" class="cart-drawer-close" aria-label="Close shopping bag">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="cart-drawer-body" id="cart-items-container">
+      <!-- Populated dynamically via script.js -->
+    </div>
+
+    <div class="cart-drawer-footer" id="cart-drawer-footer">
+      <div class="cart-shipping-notice">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 14 14"></polyline>
+        </svg>
+        <span>Complimentary carbon-neutral express courier included</span>
+      </div>
+      <div class="cart-subtotal-row">
+        <span class="cart-subtotal-label">Subtotal</span>
+        <span class="cart-subtotal-price" id="cart-subtotal-val">$0</span>
+      </div>
+      <button type="button" class="btn btn-primary cart-checkout-btn" id="btn-cart-checkout">
+        Proceed to Checkout
+      </button>
+      <button type="button" class="cart-continue-btn" id="btn-cart-continue">
+        Continue Browsing
+      </button>
+    </div>
+  </aside>
+
+  <!-- Accessible Toast Feedback Notification -->
+  <div id="cart-toast" class="cart-toast" role="status" aria-live="polite" aria-atomic="true">
+    <div class="cart-toast-info">
+      <span class="cart-toast-title">Added to Bag</span>
+      <span class="cart-toast-text" id="cart-toast-msg">Item added to your selection</span>
+    </div>
+    <button type="button" class="cart-toast-btn" id="cart-toast-action">View Bag</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
